@@ -1,12 +1,13 @@
 import React from 'react'
 import { Text, View } from 'react-native'
-import styles from '../style/style'
+import styles from '../style/Style'
+
 
 export default function Header() {
   return (
     <View style={styles.header}>
       <Text style={styles.title}>
-        Dices game
+        Mini-Yahtzee
       </Text>
     </View>
   )
